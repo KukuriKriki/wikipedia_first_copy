@@ -5,11 +5,11 @@
 
 }
 .logo p{
-	font-size: 10vh;
+	font-size: 13vh;
 	color: white;
 	text-align: center;
-	padding: 2.5vh;
-	
+	padding: 3.6vh;
+	font-family: "Ramaraja";
 }
 .wrapper {
 	display: flex;	
