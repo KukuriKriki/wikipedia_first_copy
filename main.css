@@ -1,0 +1,27 @@
+
+.logo{
+	height: 15vh;
+	background-color:red;
+
+}
+.logo p{
+	font-size: 10vh;
+	color: white;
+	text-align: center;
+	padding: 2.5vh;
+	
+}
+.wrapper {
+	display: flex;	
+	height: 5vh;
+	justify-content: center;
+  align-items: center;
+	background-color: red;
+	color: white;
+}
+.wrapper_pos{
+  position: fixed;
+	width: 100%;
+	top: 95vh;
+}
+
