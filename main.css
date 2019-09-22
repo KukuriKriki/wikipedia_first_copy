@@ -5,46 +5,81 @@
 .logo h1{
 	font-size: 13vh;
 	text-align: center;
-	padding: 3.6vh;
+	padding-top: 3.6vh;
 }
-.logo h2{
+.logo #kep_1 img{
+	height: 14vh;
 	display: block;
-	margin-top: -10vh;
-	margin-left: 60vw;
-	font-size: 5vh;
+	margin-top: -16vh;
+	margin-left: 2vw;
+}
+.logo #prelude_logo img{
+	height: 3.8vh;
+	display: block;
+	margin-top: -0.5vh;
+	margin-left: 70vw;
+}
+.logo #prelude_sziluett img{
+	height: 11vh;
+	display: block;
+	margin-top: -14vh;
+	margin-left: 69vw;
+}
+.logo #H_logo{
+	height: 14vh;
+	width: 13vw;
+	display: block;
+	margin-top: -14.5vh;
+	margin-left: 19vw;
+	overflow: hidden;
+}
+.logo #H_logo img{
+	height: 22vh;
+	margin: -4vh 0 0 -6vw ;
 }
 .main_left{
 	display: block;
 	float: left;
 	width: 15vw;
-//	height: 80vh;
 }
 .main_left p{
 	height: 100%;
-  border-right-style:solid;
-  border-width: 1px;
 	padding: 1vw
 }
+.oldal_kep{
+	width: 80%;
+	margin: 3vh auto;
+}
+.oldal_kep img{
+	width: 100%;
+	display: block;
+}
 .main_midle{
-	width: 68vw;
+	width: 64vw;
 	display: block;
 	float: left;
+	padding: 2vw;
+	box-shadow : 0px 0px 15px 20px black inset;
 }
 .main_midle p{
 	padding: 1vh;
+}
+.main_midle .picture_1{
+	width: 50%;
+	margin: 5vh auto;
+}
+.main_midle .picture_1 img{
+	width: 100%;
+	display: block;
 }
 .main_right{
 	display: block;
 	float: right;
 	width: 15vw;
-//	height: 80vh;
 }
 
 .main_right p{
 	height: 100%;
-  border-left-style:solid;
-	border-color: red;
-  border-width: 1px;
 	padding: 1vw;
 }
 .wrapper {
@@ -59,10 +94,21 @@
 	width: 100%;
 	top: 95vh;
 }
+.keret{
+	border-style: solid;
+	box-shadow : 0px 0px 10px 4px black;
+}
+.keret2{
+	border-style: solid;
+	box-shadow : 0px 0px 5px 2px white;
+}
 /* - Color style settings - */
 
+body{
+	background-color: black;
+}
 .logo{
-	background-color:white;
+	background-color:black;
 }
 .logo h1{
 	color:red;
@@ -71,11 +117,13 @@
 .logo h2{
 	color: black;
 }
+.main_left, .main_right{
+
+}
 .main_midle{
-	background-color: yellow;
+	background-color: white;
 }
 .main_left p, .main_right p{
-	border-color:cyan;
 }
 .wrapper {
 	background-color: red;
@@ -83,6 +131,8 @@
 }
 
 /* - Font style settings - */
+
 .logo h1{
 	font-family: "Ramaraja";
 }
+
