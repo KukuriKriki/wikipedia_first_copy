@@ -1,27 +1,88 @@
-
+/* - Positions and size settings - */
 .logo{
 	height: 15vh;
-	background-color:red;
-
 }
-.logo p{
+.logo h1{
 	font-size: 13vh;
-	color: white;
 	text-align: center;
 	padding: 3.6vh;
-	font-family: "Ramaraja";
+}
+.logo h2{
+	display: block;
+	margin-top: -10vh;
+	margin-left: 60vw;
+	font-size: 5vh;
+}
+.main_left{
+	display: block;
+	float: left;
+	width: 15vw;
+//	height: 80vh;
+}
+.main_left p{
+	height: 100%;
+  border-right-style:solid;
+  border-width: 1px;
+	padding: 1vw
+}
+.main_midle{
+	width: 68vw;
+	display: block;
+	float: left;
+}
+.main_midle p{
+	padding: 1vh;
+}
+.main_right{
+	display: block;
+	float: right;
+	width: 15vw;
+//	height: 80vh;
+}
+
+.main_right p{
+	height: 100%;
+  border-left-style:solid;
+	border-color: red;
+  border-width: 1px;
+	padding: 1vw;
 }
 .wrapper {
 	display: flex;	
 	height: 5vh;
 	justify-content: center;
   align-items: center;
-	background-color: red;
-	color: white;
+	font-size: 1.5vh;
 }
 .wrapper_pos{
   position: fixed;
 	width: 100%;
 	top: 95vh;
 }
+/* - Color style settings - */
 
+.logo{
+	background-color:white;
+}
+.logo h1{
+	color:red;
+	text-shadow: 1px 1px 3px white;
+}
+.logo h2{
+	color: black;
+}
+.main_midle{
+	background-color: yellow;
+}
+.main_left p, .main_right p{
+	border-color:cyan;
+}
+.wrapper {
+	background-color: red;
+	color: white;
+}
+
+/* - Font style settings - */
+.logo h1{
+	font-family: "Ramaraja";
+}
