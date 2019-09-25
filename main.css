@@ -55,14 +55,14 @@
   width: 100%;
 }
 .main_midle{
-	width: 65vw;
+	width: 64vw;
 	display: block;
 	float: left;
 	padding: 2vw;
 	box-shadow : 0px 0px 15px 20px black inset;
 }
 .main_midle p{
-	padding: 1vh;
+	padding: 4vh;
 }
 .main_midle .picture_1{
 	width: 50%;
@@ -102,6 +102,13 @@
 	border-style: solid;
 	box-shadow : 0px 0px 5px 2px white;
 }
+.adatok{
+	width: 70%;
+	margin: 10px auto;	
+}
+.adatok table{
+
+}
 /* - Color style settings - */
 
 body{
@@ -132,8 +139,53 @@ body{
 }
 
 /* - Font style settings - */
-
+.head{
+	font-size: 3vh;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 3vh;
+}
 .logo h1{
 	font-family: "Ramaraja";
 }
+.adatok{
+	font-size: 2vh;
+	font-family: "Oxygen";
+}
+.main{
+	font-family: "Oxygen";
+	letter-spacing: vh;
+	line-height: 3.8vh;
 
+}
+/* - decoration style settings - */
+.adatok table{
+//	border-style: solid;
+	border-color: darkred;
+	background-color: white;
+	border-width:1px;
+	padding: 10px;
+	display: block
+}
+.caption{
+	display:block;
+	width: 60vh;
+	background-color:brown;
+	color: beige;
+	padding: 1vh 0 0 0 ;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 3vh;
+	border-bottom-left-radius: 190px;
+	border-bottom-right-radius: 190px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.adatok table tr:nth-child(even){
+	background-color:lightgrey;
+}
+.adatok table tr td{
+	padding: 2px 5px;
+	line-height: normal;
+}
